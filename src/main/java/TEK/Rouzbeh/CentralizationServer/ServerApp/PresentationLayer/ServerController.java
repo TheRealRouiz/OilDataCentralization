@@ -19,7 +19,7 @@ public class ServerController {
 
     @GetMapping("/api/v1")
     public List<ServerEntity> fetchData(){
-        return serverService.serverRepository();
+        return serverService.getAllServers();
 
     }
 
